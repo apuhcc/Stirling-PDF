@@ -1,5 +1,5 @@
 # Main stage
-FROM alpine:3.19.1
+FROM alpine:3.22.2
 
 # JDK for app
 RUN echo "@testing https://dl-cdn.alpinelinux.org/alpine/edge/main" | tee -a /etc/apk/repositories && \
